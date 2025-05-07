@@ -21,7 +21,7 @@
 
 ### 安裝步驟
 
-1. 選擇一個您喜歡的位置，創建專案資料夾：
+1. 選擇一個喜歡的位置，創建專案資料夾：
    ```bash
    # 建立專案資料夾
    mkdir rag_test
@@ -55,7 +55,7 @@
    pip install -r requirements.txt
    ```
 
-6. 在項目根目錄創建`.env`文件，添加您的Hugging Face API令牌：
+6. 在項目根目錄創建`.env`文件，添加Hugging Face API令牌：
    ```
    HUGGINGFACEHUB_API_TOKEN=您的令牌
    ```
