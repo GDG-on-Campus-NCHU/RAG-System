@@ -1,0 +1,28 @@
+# 環境變數文件
+.env
+.env.local
+.env.*
+
+# 上傳的文檔
+uploaded_docs/
+
+# Python 虛擬環境
+venv/
+env/
+.venv/
+
+# Python 快取文件
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# IDE配置
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 系統文件
+.DS_Store
+Thumbs.db
