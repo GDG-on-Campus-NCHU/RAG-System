@@ -1,3 +1,5 @@
+您說得對，安裝說明需要更加明確。讓我修正這部分：
+
 # RAG-System
 
 一個基於檢索增強生成(RAG)的問答系統，能從上傳的文檔中提取相關知識回答用戶問題。使用Python、Flask和Hugging Face模型構建。
@@ -19,27 +21,41 @@
 
 ### 安裝步驟
 
-1. 克隆存儲庫：
+1. 選擇一個您喜歡的位置，創建專案資料夾：
    ```bash
-   git clone https://github.com/GDG-on-Campus-NCHU/RAG-System.git
-   cd RAG-System
+   # 建立專案資料夾
+   mkdir rag_test
+   cd rag_test
    ```
 
-2. 創建並激活虛擬環境：
+2. 克隆存儲庫到此資料夾：
    ```bash
-   python -m venv rag_project
+   git clone https://github.com/GDG-on-Campus-NCHU/RAG-System.git .
+   ```
+
+3. 在專案資料夾外創建虛擬環境資料夾：
+   ```bash
+   # 回到上一層目錄
+   cd ..
+   # 創建虛擬環境資料夾
+   python -m venv rag_env
+   ```
+
+4. 啟動虛擬環境：
+   ```bash
    # Windows系統
-   rag_project\Scripts\activate
+   rag_env\Scripts\activate
    # macOS/Linux系統
-   source rag_project/bin/activate
+   source rag_env/bin/activate
    ```
 
-3. 安裝依賴：
+5. 進入專案資料夾並安裝依賴：
    ```bash
+   cd rag_test
    pip install -r requirements.txt
    ```
 
-4. 在項目根目錄創建`.env`文件，添加您的Hugging Face API令牌：
+6. 在項目根目錄創建`.env`文件，添加您的Hugging Face API令牌：
    ```
    HUGGINGFACEHUB_API_TOKEN=您的令牌
    ```
@@ -82,4 +98,5 @@ python app.py
 ## 授權
 
 本項目是開源的，基於MIT許可證發布。
+
 
