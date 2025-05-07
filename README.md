@@ -83,8 +83,3 @@ python app.py
 
 本項目是開源的，基於MIT許可證發布。
 
-## 致謝
-
-- 使用Hugging Face的transformers和sentence-transformers庫構建
-- 由Flask網頁框架提供支持
-- 由GDG on Campus NCHU開發
